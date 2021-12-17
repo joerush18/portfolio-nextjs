@@ -1,4 +1,4 @@
-import Slide from "react-reveal/slide";
+import Slide from "react-reveal/Slide";
 
 const Wrapper = ({ children, title, className }) => {
   return (

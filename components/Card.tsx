@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Flip from "react-reveal/flip";
+import Flip from "react-reveal/Flip";
 
 const Card = ({ imageSrc, title, tags, sourceLink, previewLink }) => {
   return (
