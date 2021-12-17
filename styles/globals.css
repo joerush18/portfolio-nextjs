@@ -10,7 +10,7 @@
   }
 
   * {
-    @apply box-border m-0 p-0 font-MavenPro antialiased;
+    @apply font-MavenPro antialiased;
   }
 
   h1,
@@ -35,7 +35,7 @@
   }
 
   .container {
-    @apply bg-backgroundContent mt-10 rounded-2xl px-4 py-4 shadow-md;
+    @apply bg-backgroundContent mt-10 rounded-2xl px-4 py-4 shadow-md w-full;
   }
 
   .wrapperClass {

@@ -75,7 +75,7 @@ const Body = () => {
           <Box title="aws" />
           <Box title="heroku" />
         </Wrapper>
-        <div className="container my-4  flex items-center justify-center space-x-2">
+        <div className="container my-4 flex items-center justify-center space-x-2 w-[490px]">
           <span>Made with</span>
           <FontAwesomeIcon
             icon={faHeart}
