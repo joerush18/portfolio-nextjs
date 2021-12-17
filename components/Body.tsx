@@ -4,7 +4,7 @@ import Box from "./Box";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
-import Zoom from "react-reveal/pulse";
+import Zoom from "react-reveal/Zoom";
 
 const Body = () => {
   return (
