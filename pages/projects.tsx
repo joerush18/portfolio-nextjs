@@ -49,7 +49,7 @@ const projectsData = [
 const Projects = () => {
   return (
     <>
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 mt-5 pb-6">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3  place-content-center gap-4 mt-5 pb-6">
         {projectsData.map((project, index) => {
           return (
             <Card
