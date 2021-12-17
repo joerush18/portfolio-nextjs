@@ -1,16 +1,44 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap");
+
+@layer base {
+  html {
+    @apply bg-background;
+  }
+
+  * {
+    @apply box-border m-0 p-0 font-MavenPro antialiased;
+  }
+
+  h1,
+  span,
+  p,
+  div {
+    @apply text-textPrimary;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer components {
+  .navButton {
+    @apply cursor-pointer px-8 py-2 rounded-full bg-background mr-4 hover:bg-primary hover:text-white transition-colors;
+  }
 
-* {
-  box-sizing: border-box;
+  .active {
+    @apply bg-primary text-white;
+  }
+
+  .iconButton {
+    @apply hover:text-primary cursor-pointer;
+  }
+
+  .container {
+    @apply bg-backgroundContent mt-10 rounded-2xl px-4 py-4 shadow-md;
+  }
+
+  .wrapperClass {
+    @apply p-4 mt-2 grid grid-cols-2 gap-4 md:grid-cols-3 2xl:grid-cols-4;
+  }
 }
