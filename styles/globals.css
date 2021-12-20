@@ -9,15 +9,11 @@
     @apply bg-background;
   }
 
-  * {
-    @apply font-MavenPro antialiased;
-  }
-
   h1,
   span,
   p,
   div {
-    @apply text-textPrimary;
+    @apply text-textPrimary  font-MavenPro;
   }
 }
 
