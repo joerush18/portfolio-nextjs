@@ -15,6 +15,7 @@ const Body = () => {
           <Wrapper
             title="About me"
             className=" text-center xl:flex xl:item-center xl:justify-center xl:px-8 xl:py-8"
+            head="true"
           >
             <div className="mt-8 xl:p-4 xl:w-full ">
               <Image
@@ -46,7 +47,7 @@ const Body = () => {
         </Zoom>
 
         {/* FrontendPart */}
-        <Wrapper title="Front-end Tools" className="wrapperClass">
+        <Wrapper title="Front-end Tools" className="wrapperClass" head="true">
           <Box title="javascript" />
           <Box title="typescript" />
           <Box title="react" />
@@ -60,13 +61,13 @@ const Body = () => {
           <Box title="java" />
           <Box title="react-native" />
         </Wrapper>
-        <Wrapper title="Back-end Tools" className="wrapperClass">
+        <Wrapper title="Back-end Tools" className="wrapperClass" head="true">
           <Box title="nodejs" />
           <Box title="sql" />
           <Box title="mongodb" />
           <Box title="express" />
         </Wrapper>
-        <Wrapper title="Dev Tools" className="wrapperClass">
+        <Wrapper title="Dev Tools" className="wrapperClass" head="true">
           <Box title="stackoverflow" />
           <Box title="firebase" />
           <Box title="git" />
