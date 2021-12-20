@@ -4,7 +4,7 @@ import Flip from "react-reveal/Flip";
 const Card = ({ imageSrc, title, tags, sourceLink, previewLink }) => {
   return (
     <Flip right>
-      <div className="w-[420px]  md:min-h-[315px] md:max-w-[400px] bg-backgroundContent rounded-2xl shadow-md p-4 text-center ml-16 sm:ml-0 ">
+      <div className="w-[470px]  md:min-h-[315px] md:w-[300px] bg-backgroundContent rounded-2xl shadow-md p-4 text-center sm:ml-0 ">
         <Image
           src={imageSrc ? imageSrc : "/images/futsa.png"}
           width="500px"
