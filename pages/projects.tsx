@@ -9,6 +9,13 @@ const projectsData = [
     preview: "https://covidnp.info/",
   },
   {
+    projectName: "Project Finder",
+    img: "project-finder.png",
+    tags: ["React, Next, Tailwindcss, GithubApi"],
+    codelink: "https://github.com/joerush18/project-finder",
+    preview: "https://project-finder-rho.vercel.app/",
+  },
+  {
     projectName: "Diabetes Explorer (ongoing)",
     img: "de.png",
     tags: ["Nextjs", "nodejs"],

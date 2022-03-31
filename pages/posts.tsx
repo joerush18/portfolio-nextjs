@@ -55,22 +55,8 @@ const Posts = ({ data }) => {
 export default Posts;
 export async function getStaticProps() {
   const res = await fetch(
-    `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@nirmaniwarakaulla`
+    `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@niemvuilaptrinh`
   );
   const data = await res.json();
   return { props: { data }, revalidate: 1 };
 }
-
-// endpoint;
-//
-
-// {
-//   /* <Image
-//             src="/images/underconstruction.png"
-//             height="500px"
-//             width="700px"
-//           />
-//           <Tada>
-//             <h1 className="text-3xl ">Undercontruction.....</h1>
-//           </Tada> */
-// }
