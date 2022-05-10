@@ -53,7 +53,7 @@ const projectsData = [
   },
   {
     projectName: "Watch Highlights",
-    img: "highlightsfootballt.png",
+    img: "highlightsfootball.png",
     tags: ["Vuejs", "Nodejs", "expressjs", "cheerio"],
     codelink: "https://github.com/joerush18/watch-footballhighlights-api",
     preview: "https://github.com/joerush18/watch-footballhighlights-api",
