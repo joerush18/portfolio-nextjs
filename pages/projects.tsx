@@ -51,6 +51,13 @@ const projectsData = [
     codelink: "https://github.com/Pokhara-University/pu_admin-app",
     preview: "https://github.com/Pokhara-University/pu_admin-app",
   },
+  {
+    projectName: "Watch Highlights",
+    img: "highlightsfootballt.png",
+    tags: ["Vuejs", "Nodejs", "expressjs", "cheerio"],
+    codelink: "https://github.com/joerush18/watch-footballhighlights-api",
+    preview: "https://github.com/joerush18/watch-footballhighlights-api",
+  },
 ];
 
 const Projects = () => {
